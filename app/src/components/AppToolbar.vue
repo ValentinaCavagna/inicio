@@ -1,6 +1,8 @@
 <template>
   <div>
     <v-navigation-drawer app v-model = "menu">
+
+      
          <v-list-item>
           <v-list-item-content>
             <v-list-item-title class="title" @click = "$router.push('/page')">
